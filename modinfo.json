@@ -4,7 +4,7 @@
     "build": "100000",
     "version": "1.0.0",
     "context": "client",
-    "identifier": "com.pa.romans.highcontrast-economystats",
+    "identifier": "com.pa.romans.highcontrast-econbar",
     "display_name": "High Contrast",
     "description": "",
     "icon": "",
@@ -19,7 +19,7 @@
     {
         "live_game_econ":
         [
-            "coui://ui/mods/highcontrast/live_game_econ.js"
+            "coui://ui/mods/highcontrast-econbar/live_game_econ.js"
             
         ]
     },
