@@ -22,14 +22,15 @@ const $divecon = $('div[class*="div-econ"]'),
 const colorProduced = "gold",
     colorConsumed = "lightseagreen",
     shadowBox = "0 0 3px 1px cornflowerblue",
-    productionFontSize = "13.5px",
-    netGainFontSize = "22.5px",
+    productionFontSize = "16px",
+    netGainFontSize = "26px",
     negativeEfficiency = [
         // "box-shadow: 0 0 3px 1px cornflowerblue",
         "text-shadow: 0 0 5px cornflowerblue, 0 0 20px cornflowerblue, 0 0 45px cornflowerblue"
     ],
     negativeMetalEnergy = [
-        "box-shadow: 0 0 3px 1px cornflowerblue"
+        // "box-shadow: 0 0 3px 1px cornflowerblue",
+        "text-shadow: 0 0 2px yellow"
     ]
     efficiencyLimit = 80
 
