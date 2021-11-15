@@ -1,0 +1,27 @@
+{
+    "author": "romans",
+    "date": "2021-11-05",
+    "build": "100000",
+    "version": "1.0.0",
+    "context": "client",
+    "identifier": "com.pa.romans.highcontrast-economystats",
+    "display_name": "High Contrast",
+    "description": "",
+    "icon": "",
+    "signature": " ",
+    "forum": "",
+    "category":
+    [
+        "in-game"
+    ],
+    "priority": 100,
+    "scenes":
+    {
+        "live_game_econ":
+        [
+            "coui://ui/mods/highcontrast/live_game_econ.js"
+            
+        ]
+    },
+    "enabled": true
+}
