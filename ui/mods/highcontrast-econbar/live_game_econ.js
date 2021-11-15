@@ -142,4 +142,4 @@ $divefficiency_ctrperc.attr(
 );
 
 
-console.log("edit", $divecon, $divefficiency, $divefficiency_ctrperc)
+// console.log("edit", $divecon, $divefficiency, $divefficiency_ctrperc)

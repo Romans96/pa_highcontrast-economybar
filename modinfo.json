@@ -1,20 +1,21 @@
 {
     "author": "romans",
-    "date": "2021-11-05",
-    "build": "100000",
+    "date": "2021-11-14",
+    "build": "115958",
     "version": "1.0.0",
     "context": "client",
     "identifier": "com.pa.romans.highcontrast-econbar",
-    "display_name": "High Contrast",
-    "description": "",
+    "display_name": "High Contrast Economy Bar",
+    "description": "Created for colorblind/achromatic players that has problems to read the negative economy status numbers, with also higher font size",
     "icon": "",
-    "signature": " ",
     "forum": "",
+    "github": "https://github.com/Romans96/com.pa.romans.highcontrast-econbar",
+    "signature": " ",
     "category":
     [
-        "in-game"
+        "titans",
+        "ui"
     ],
-    "priority": 100,
     "scenes":
     {
         "live_game_econ":
@@ -22,6 +23,5 @@
             "coui://ui/mods/highcontrast-econbar/live_game_econ.js"
             
         ]
-    },
-    "enabled": true
+    }
 }
