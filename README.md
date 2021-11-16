@@ -6,7 +6,7 @@ Very simple mod for *Planetary Annhilation Titans* game that edits a bit the **E
 - Visually Impaired
 
 > High Resources Efficiency EconomyBar Screen (v1.0.0):
-![High Efficiency Economy Bar](https://github.com/Romans96/pa_highcontrast-economybar/blob/main/images/img_higheff_v1.0.0.png)
+![High Efficiency Economy Bar](https://github.com/Romans96/pa_highcontrast-economybar/blob/master/images/img_higheff_v1.0.0.png)
 
 > Low Resources Efficiency EconomyBar Screen (v1.0.0):
-![Low Efficiency Economy Bar](https://github.com/Romans96/pa_highcontrast-economybar/blob/main/images/img_loweff_v1.0.0.png)
+![Low Efficiency Economy Bar](https://github.com/Romans96/pa_highcontrast-economybar/blob/master/images/img_loweff_v1.0.0.png)
