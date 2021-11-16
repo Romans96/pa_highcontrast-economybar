@@ -7,9 +7,9 @@
     "identifier": "com.pa.romans.highcontrast-econbar",
     "display_name": "High Contrast Economy Bar",
     "description": "Created for colorblind/achromatic players that has problems to read the negative economy status numbers, with also higher font size",
-    "icon": "https://github.com/Romans96/highcontrat-economybar/blob/main/icon.png?raw=true",
+    "icon": "https://github.com/Romans96/pa_highcontrast-economybar/blob/master/icon.png?raw=true",
     "forum": "",
-    "github": "https://github.com/Romans96/com.pa.romans.highcontrast-econbar",
+    "github": "https://github.com/Romans96/pa_highcontrast-economybar/tree/master",
     "signature": " ",
     "category":
     [
