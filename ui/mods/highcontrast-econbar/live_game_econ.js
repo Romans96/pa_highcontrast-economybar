@@ -17,13 +17,19 @@ const $divecon = $('div[class*="div-econ"]'),
     $divefficiency = $divecon.children().find($('div[class*="div_efficiency"]')),
     $divefficiency_ctrperc = $divefficiency.find($('div[class*="div_rate_ctr_perc_center"]'))
 
+// API values
+var netgainfsize = api.settings.isSet('camera', 'hceb_netgainfsize', true) == undefined ? "26" : api.settings.isSet('camera', 'hceb_netgainfsize', true);
+var productionfsize = api.settings.isSet('camera', 'hceb_productionfsize', true) == undefined ? "16" : api.settings.isSet('camera', 'hceb_productionfsize', true);
+netgainfsize = netgainfsize + "px";
+productionfsize = productionfsize + "px";
+// console.log(netgainfsize, productionfsize);
 
 // Generic Variables
 const colorProduced = "gold",
     colorConsumed = "lightseagreen",
     shadowBox = "0 0 3px 1px cornflowerblue",
-    productionFontSize = "16px",
-    netGainFontSize = "26px",
+    productionFontSize = productionfsize,
+    netGainFontSize = netgainfsize,
     negativeEfficiency = [
         // "box-shadow: 0 0 3px 1px cornflowerblue",
         "text-shadow: 0 0 5px cornflowerblue, 0 0 20px cornflowerblue, 0 0 45px cornflowerblue"
@@ -31,8 +37,8 @@ const colorProduced = "gold",
     negativeMetalEnergy = [
         // "box-shadow: 0 0 3px 1px cornflowerblue",
         "text-shadow: 0 0 2px yellow"
-    ]
-    efficiencyLimit = 80
+    ],
+    efficiencyLimit = 80;
 
 // ##Economy positive/negative Effects
 // Economy Efficiency
@@ -138,7 +144,7 @@ $divefficiency_ctrperc.css({
 
 $divefficiency_ctrperc.attr(
     'data-bind',
-    "text: economyEfficiencyPercString, css: { negative_efficiency: economyEfficiencyPerc() <= "+efficiencyLimit+", positive_efficiency: economyEfficiencyPerc() > "+efficiencyLimit+"}"
+    "text: economyEfficiencyPercString, css: { negative_efficiency: economyEfficiencyPerc() <= " + efficiencyLimit + ", positive_efficiency: economyEfficiencyPerc() > " + efficiencyLimit + "}"
 );
 
 

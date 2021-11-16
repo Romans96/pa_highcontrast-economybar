@@ -17,7 +17,11 @@
         "ui"
     ],
     "scenes":
-    {
+    {   
+        "settings":
+        [
+            "coui://ui/mods/highcontrast-econbar/settings.js"
+        ],
         "live_game_econ":
         [
             "coui://ui/mods/highcontrast-econbar/live_game_econ.js"
