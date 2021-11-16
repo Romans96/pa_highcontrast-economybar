@@ -1,8 +1,8 @@
 {
     "author": "romans",
-    "date": "2021-11-14",
+    "date": "2021-11-16",
     "build": "115958",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "context": "client",
     "identifier": "com.pa.romans.highcontrast-econbar",
     "display_name": "High Contrast Economy Bar",
